@@ -53,8 +53,6 @@
             textBox23 = new TextBox();
             textBox24 = new TextBox();
             button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -240,40 +238,19 @@
             // 
             // button1
             // 
-            button1.Location = new Point(346, 180);
+            button1.Location = new Point(279, 180);
             button1.Name = "button1";
-            button1.Size = new Size(30, 29);
+            button1.Size = new Size(248, 29);
             button1.TabIndex = 28;
-            button1.Text = "R";
+            button1.Text = "Randomize";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(382, 180);
-            button2.Name = "button2";
-            button2.Size = new Size(30, 29);
-            button2.TabIndex = 29;
-            button2.Text = "E";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(418, 180);
-            button3.Name = "button3";
-            button3.Size = new Size(30, 29);
-            button3.TabIndex = 30;
-            button3.Text = "S";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(961, 689);
-            Controls.Add(button3);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox20);
             Controls.Add(textBox21);
@@ -333,7 +310,5 @@
         private TextBox textBox23;
         private TextBox textBox24;
         private Button button1;
-        private Button button2;
-        private Button button3;
     }
 }
