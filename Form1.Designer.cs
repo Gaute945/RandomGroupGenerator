@@ -249,16 +249,18 @@
             // 
             // textBox25
             // 
-            textBox25.Location = new Point(12, 438);
+            textBox25.Location = new Point(12, 390);
+            textBox25.Multiline = true;
             textBox25.Name = "textBox25";
-            textBox25.Size = new Size(434, 27);
+            textBox25.ScrollBars = ScrollBars.Vertical;
+            textBox25.Size = new Size(434, 287);
             textBox25.TabIndex = 29;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(961, 689);
+            ClientSize = new Size(814, 689);
             Controls.Add(textBox25);
             Controls.Add(button1);
             Controls.Add(textBox20);
